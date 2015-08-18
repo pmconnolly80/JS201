@@ -3,21 +3,57 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel= "stylesheet" type="text/css" href="css/main.css">
   <title>JS201</title>
 </head>
 
 <body>
-  <nav></nav>
+  <header>
+    <nav>
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="member.html">Members</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <header></header>
+  <br>
+  <br>
+  <form>
+    <fieldset>
+        <legend>Family Member Input</legend>
+        <div class="form-group row">
+             <div class="col-md-6 col-lg-12">
+                <label for="memberName">First Name </label>
+                <input type="text" class="form-control"
+                 id="memberName" placeholder="Please enter first name">
+             </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-md-6 col-lg-12">
+                <label for="memberName">Age </label>
+                <input type="text" class="form-control"
+                 id="memberAge" placeholder="Please enter age">
+            </div>
+            <br>
+            <div class="col-md-6 col-lg-12">
+                <label for="memberName">Gender </label>
+                <input type="text" class="form-control"
+                 id="memberGender" placeholder="Please enter sex">
+            </div>
+            <br>
+            <div class="col-md-6 col-lg-12">
+                <label for="memberName">Skills</label>
+                <input type="text" class="form-control"
+                 id="memberSkills" placeholder="Please enter special skills.  Please, seperate each skill by a comma.">
+            </div>
+        </div>
 
-  <article>
-    <header></header>
-    <section></section>
-    <footer></footer>
-  </article>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </fieldset>
+  </form>
 
-  <footer></footer>
-
+  <script data-main="javascripts/main.js" src="bower_components/requirejs/require.js"></script>
 </body>
 </html>
