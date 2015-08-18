@@ -1,0 +1,24 @@
+{
+  "name": "JS201",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pmconnolly80/JS201",
+  "authors": [
+    "Peter Connolly <pmconnolly80@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "requirejs": "~2.1.20",
+    "require-handlebars-plugin": "~0.11.3",
+    "firebase": "~2.2.9",
+    "lodash": "~3.10.1",
+    "q": "~1.0.1"
+  }
+}
